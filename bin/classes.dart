@@ -31,7 +31,7 @@ class RegularTikcet implements Tikcet {
 }
 
 class BookingSysmt {
-  final User user;
+  final User userName;
   BookingSysmt(this.user);
 
   List<Tikcet> tickets = [];
